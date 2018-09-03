@@ -2,7 +2,7 @@
 /.bundle
 
 # Ignore log files and temporary files.
-/log/*
+/log
 !/log/.keep
 /tmp
 
