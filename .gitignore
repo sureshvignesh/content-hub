@@ -1,0 +1,19 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore log files and temporary files.
+/log/*
+!/log/.keep
+/tmp
+
+# Ignore secrets and configurations
+/config
+
+
+# Ignore files that were created during merge conflicts
+*.orig
+
+#Igmore MacOS files
+.DS_Store
+.taskpaper
+mkmf.log
