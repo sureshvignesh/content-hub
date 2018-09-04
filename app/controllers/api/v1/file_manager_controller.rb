@@ -27,6 +27,6 @@ class Api::V1::FileManagerController < ApplicationController
   def validate_upload
     @file = params['file']
     validate = ValidateUploadService.new(@file).validate
-    render json: validate and return unless validate['success']
+    render json: validate and return unless validate[:success]
   end
 end
